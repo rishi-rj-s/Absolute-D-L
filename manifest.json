@@ -5,7 +5,8 @@
      "description": "Toggle between dark and light mode on any site.",
      "permissions": [
           "scripting",
-          "activeTab"
+          "activeTab",
+          "storage"
      ],
      "action": {
           "default_popup": "popup.html",
@@ -18,5 +19,8 @@
      },
      "icons": {
           "16": "icon.png"
-     }
+     },
+     "host_permissions": [
+          "<all_urls>"
+     ]
 }
